@@ -1,0 +1,10 @@
+applySpecVersion: 1
+spec:
+  configSync:
+    enabled: true
+    sourceFormat: unstructured
+    syncRepo: https://github.com/karlkfi/acm-examples-fan-out
+    syncBranch: main
+    syncRev: HEAD
+    policyDir: "configsync/all-clusters"
+    secretType: none
